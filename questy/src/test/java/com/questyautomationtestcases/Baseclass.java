@@ -34,7 +34,7 @@ public class Baseclass {
 		ChromeOptions options=new ChromeOptions();
 		
 		options.addArguments("use-fake-ui-for-media-stream");
-		options.addArguments("--headless");
+		//options.addArguments("--headless");
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "//NewDriver//chromedriver.exe");
 		driver=new ChromeDriver(options);
 		jsDriver = (JavascriptExecutor)driver;
